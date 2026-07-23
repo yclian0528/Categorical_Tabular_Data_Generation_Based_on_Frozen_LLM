@@ -1,0 +1,159 @@
+# ==============================================================================
+# 專案基本設定
+# ==============================================================================
+# 使用方式：
+# 1. paths 底下的所有路徑都可以自行修改，程式會依照這裡的設定讀取與儲存檔案。
+# 2. 原始資料 CSV 需放在 {paths.raw_data_dir}/{dataset}.csv。
+# 3. Hugging Face 模型或本機模型資料夾需放在 {paths.offline_models_dir}/{backbone_name}。
+project:
+  name: "Tabular_LLM_Synthesis"
+  seeds: [0, 42, 1234, 2026, 114514]
+  device: "cuda"
+
+# ==============================================================================
+# 執行目標
+# ==============================================================================
+# datasets：要處理的資料集名稱，必須對應到 {paths.raw_data_dir}/{dataset}.csv。
+# backbones：要使用的文字模型名稱，必須對應到 {paths.offline_models_dir}/{backbone_name}。
+# num_gen_models：已產生數值欄位的 baseline 方法名稱，用於合併生成類別欄位。
+experiment_targets:
+  datasets: ["adult", "bank", "Customertravel", "german_credit", "insurance", "StudentsPerformance", "Telco-Customer-Churn", "sick", "Obesity"]
+  backbones: ["bert-base-uncased", "gpt2", "Qwen2-7B", "Meta-Llama-3-8B", "ModernBERT-base", "bge-large-en-v1.5"]
+  num_gen_models: ["CTGAN", "VAE", "GaussianCopula", "GReaT", "TabDDPM"]
+
+# ==============================================================================
+# 路徑設定
+# ==============================================================================
+# 以下路徑都是相對於專案根目錄的預設值，也可以改成絕對路徑。
+# raw_data_dir：完整原始資料 CSV 的來源資料夾。
+# offline_models_dir：離線 backbone 模型資料夾。
+# processed_data_root：前處理 artifact 與 train/valid split 的輸出根目錄。
+# feature_extract_root：數值文字特徵的輸出根目錄。
+# experiment_root：訓練後模型、Trainer 輸出、測試結果與 exp_config.yaml 的輸出根目錄。
+# syn_raw_source_root：baseline 生成的原始合成 CSV 來源根目錄。
+# syn_numeric_root：生成前處理後的中間資料輸出根目錄。
+# final_syn_output：最終合成 CSV 的輸出根目錄。
+paths:
+  raw_data_dir: "data/raw"
+  offline_models_dir: "llm_backbones"
+  processed_data_root: "data/processed"
+  feature_extract_root: "outputs/numeric_features"
+  experiment_root: "outputs/experiments"
+  syn_raw_source_root: "data/synthetic/baseline"
+  syn_numeric_root: "data/synthetic/baseline_numeric"
+  final_syn_output: "outputs/syn_data"
+
+# ==============================================================================
+# 訓練與生成前處理
+# ==============================================================================
+# train_ratio：訓練資料比例，剩餘資料作為 validation。
+# float_format：數值欄位轉成文字序列時的格式。
+# shuffle_num_cols_in_text：是否隨機打亂數值欄位出現在文字序列中的順序。
+# dump_label_encoders：是否輸出類別欄位的 LabelEncoder artifact。
+preprocessing:
+  train_ratio: 0.8
+  float_format: "{:.6g}"
+  shuffle_num_cols_in_text: true
+  dump_label_encoders: true
+
+# ==============================================================================
+# 特徵提取與 SCE 語意嵌入
+# ==============================================================================
+# batch_size：數值特徵提取與 SCE embedding 建立時的 batch size。
+# max_length：tokenizer 最大長度。
+# prompt_id：SCE artifact 資料夾名稱的一部分，用來區分不同 prompt 設定。
+# prompt_format：類別值轉成文字時的格式；{col} 代表欄位名，{val} 代表類別值。
+# auto_dtype：自動依 backbone 選擇 torch dtype；關閉時使用 float32。
+# auto_pooling：自動依 backbone 選擇 pooling；關閉時統一使用 mean pooling。
+extraction:
+  batch_size: 32
+  max_length: 128
+  prompt_id: "prompt1"
+  prompt_format: "{col} = {val}"
+  auto_dtype: true
+  auto_pooling: true
+
+# ==============================================================================
+# 類別生成模型架構
+# ==============================================================================
+# use_mmoe：是否使用 MMoE；關閉時使用共享表示直接接各任務 head。
+# concat_raw_nums：是否將原始數值特徵投影後與 backbone 特徵拼接。
+# use_attention：是否加入自注意力層。
+# attention_pos：自注意力位置，before 表示在 MMoE 前，after 表示在 MMoE 後。
+# auto_attention_heads：是否自動根據 hidden size 選擇 attention heads。
+# fixed_attention_heads：auto_attention_heads 關閉時使用的 head 數。
+# raw_num_embed_dim：原始數值特徵投影維度。
+# proj_dim：共享投影層與 CosineHead 使用的投影維度。
+# use_deep_proj_layers：不同 hidden size 時是否使用較深的投影層。
+model:
+  use_mmoe: true
+  concat_raw_nums: true
+  use_attention: false
+  attention_pos: "after"
+  auto_attention_heads: true
+  fixed_attention_heads: 8
+  raw_num_embed_dim: 128
+  proj_dim: 512
+  use_deep_proj_layers: false
+  
+  mmoe:
+    expert_limits: [4, 16]
+    dropout: 0.1
+    
+  cosine_head:
+    init_scale: 2.0
+    max_scale: 50.0
+    min_scale: 0.1
+
+# ==============================================================================
+# 訓練與損失函數
+# ==============================================================================
+# optimizer：Trainer 使用的最佳化器相關參數。
+# trainer.batch_size：每個 device 的訓練 batch size。
+# trainer.epochs：最大訓練 epoch 數，可能因 early stopping 提前停止。
+# trainer.metric_for_best_model：選擇最佳 checkpoint 的指標。
+# trainer.logging_steps：訓練 log 間隔。
+# trainer.save_total_limit：最多保留 checkpoint 數量。
+# early_stopping.patience：eval_loss 連續多少個 epoch 未改善時停止。
+# loss_reweight：依類別數量重新加權 loss 的限制範圍。
+# loss_cfg.type：loss 類型，可選 ce、lsce、focal。
+training:
+  optimizer:
+    lr: 0.005
+    weight_decay: 0.01
+    lr_scheduler: "cosine"
+    warmup_ratio: 0.05
+    
+  trainer:
+    batch_size: 3072
+    epochs: 200
+    max_grad_norm: 1.0
+    metric_for_best_model: "eval_loss"
+    logging_steps: 100
+    save_total_limit: 2
+
+  early_stopping:
+    patience: 15
+    
+  loss_reweight:
+    beta: 0.999
+    lo_clip: 0.5
+    hi_clip: 5.0
+    
+  loss_cfg:
+    type: "ce"
+    smoothing: 0.1
+    focal_gamma: 2.0
+
+# ==============================================================================
+# 合成資料生成
+# ==============================================================================
+# temperatures：類別採樣溫度；數值越小越保守，數值越大越隨機。
+# batch_size：生成類別欄位時的 batch size。
+# drop_scaled_cols：輸出最終 CSV 時是否移除中間用的 scaled_* 欄位。
+# drop_row_id：輸出最終 CSV 時是否移除 row_id 欄位。
+generation:
+  temperatures: [0.8]
+  batch_size: 3072
+  drop_scaled_cols: true
+  drop_row_id: true
