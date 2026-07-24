@@ -1,0 +1,764 @@
+Age,ServicesOpted,FrequentFlyer,AnnualIncomeClass,AccountSyncedToSocialMedia,BookedHotelOrNot,Target
+36,1,Yes,Low Income,No,No,Customer Churns
+31,1,No,Middle Income,No,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+28,2,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+37,3,Yes,Middle Income,No,No,Customer Doesnt Churn
+30,6,No,High Income,Yes,Yes,Customer Doesnt Churn
+29,6,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+38,2,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,Low Income,No,No,Customer Doesnt Churn
+34,1,No,Low Income,No,No,Customer Doesnt Churn
+37,2,No,Middle Income,No,No,Customer Doesnt Churn
+31,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,Yes,Customer Churns
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,No,Customer Churns
+37,2,No Record,Low Income,No,Yes,Customer Churns
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+31,3,No Record,Middle Income,No,No,Customer Doesnt Churn
+31,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+27,5,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+28,2,No,High Income,Yes,No,Customer Churns
+37,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,No,Yes,Customer Doesnt Churn
+36,1,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,No,No,Customer Churns
+30,2,No Record,High Income,No,No,Customer Churns
+28,2,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,Yes,Customer Churns
+36,1,No Record,Low Income,Yes,No,Customer Churns
+27,1,No,High Income,No,Yes,Customer Churns
+27,1,No,High Income,No,No,Customer Churns
+30,2,No,Middle Income,No,No,Customer Churns
+30,1,No Record,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Middle Income,No,No,Customer Doesnt Churn
+30,2,No,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+31,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+28,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+31,2,No,High Income,No,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+30,3,No,Low Income,Yes,No,Customer Doesnt Churn
+33,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No Record,High Income,No,No,Customer Doesnt Churn
+28,6,No Record,Middle Income,Yes,Yes,Customer Doesnt Churn
+29,2,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+37,1,Yes,Low Income,No,No,Customer Doesnt Churn
+31,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+29,4,No,Low Income,Yes,No,Customer Churns
+31,3,No,Middle Income,No,No,Customer Doesnt Churn
+30,2,No,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,3,No Record,High Income,No,No,Customer Churns
+30,3,No Record,Middle Income,Yes,No,Customer Churns
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,3,Yes,Low Income,No,No,Customer Doesnt Churn
+29,1,No,Low Income,Yes,No,Customer Doesnt Churn
+36,1,Yes,Low Income,No,No,Customer Churns
+31,1,No,High Income,No,No,Customer Doesnt Churn
+29,1,No,High Income,Yes,No,Customer Churns
+32,1,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+36,6,No,Middle Income,Yes,Yes,Customer Churns
+37,6,No,High Income,No,Yes,Customer Doesnt Churn
+31,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+27,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+30,2,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+28,6,Yes,Middle Income,No,Yes,Customer Churns
+30,1,No,High Income,No,No,Customer Doesnt Churn
+37,6,No Record,Middle Income,Yes,Yes,Customer Churns
+28,2,No,Low Income,Yes,No,Customer Churns
+37,3,Yes,Middle Income,No,No,Customer Churns
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+27,1,No,High Income,No,No,Customer Churns
+31,1,No,Middle Income,Yes,Yes,Customer Churns
+29,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+31,2,No,Low Income,Yes,No,Customer Churns
+31,1,No,High Income,No,Yes,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+31,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+29,1,No,Low Income,Yes,No,Customer Doesnt Churn
+28,2,Yes,Middle Income,No,No,Customer Doesnt Churn
+31,1,No,Low Income,Yes,No,Customer Doesnt Churn
+28,2,Yes,Middle Income,No,No,Customer Churns
+28,1,No Record,High Income,Yes,Yes,Customer Churns
+37,2,No,Low Income,Yes,No,Customer Churns
+31,1,No Record,High Income,Yes,No,Customer Churns
+30,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+31,2,Yes,High Income,Yes,No,Customer Doesnt Churn
+29,1,No,Low Income,No,No,Customer Doesnt Churn
+37,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Churns
+31,2,No,Low Income,No,Yes,Customer Doesnt Churn
+30,2,No,Low Income,Yes,Yes,Customer Churns
+37,4,No,Middle Income,No,Yes,Customer Churns
+30,1,No,High Income,No,Yes,Customer Churns
+28,2,No,High Income,Yes,No,Customer Churns
+27,4,No,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+31,2,No,Middle Income,Yes,No,Customer Churns
+28,1,No Record,Low Income,Yes,Yes,Customer Churns
+32,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+27,2,No,Middle Income,No,Yes,Customer Churns
+30,1,No,Low Income,No,Yes,Customer Churns
+31,2,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+27,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,Yes,Customer Churns
+38,6,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+31,1,No Record,Middle Income,No,Yes,Customer Churns
+37,2,Yes,Middle Income,No,No,Customer Doesnt Churn
+28,1,No,High Income,No,No,Customer Churns
+31,3,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,3,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,Middle Income,Yes,No,Customer Churns
+37,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+30,2,No,Low Income,No,No,Customer Doesnt Churn
+29,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+37,1,No,Low Income,No,No,Customer Churns
+30,1,No,High Income,No,No,Customer Churns
+27,1,No Record,High Income,No,Yes,Customer Churns
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,2,No,High Income,Yes,No,Customer Doesnt Churn
+30,2,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+29,1,No,High Income,No,Yes,Customer Churns
+30,1,No Record,High Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+31,2,Yes,Low Income,Yes,No,Customer Churns
+30,1,No,Low Income,No,Yes,Customer Churns
+28,2,Yes,Middle Income,Yes,No,Customer Churns
+30,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+29,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,No,No,Customer Doesnt Churn
+31,2,No Record,High Income,Yes,Yes,Customer Churns
+37,3,No,Low Income,No,Yes,Customer Doesnt Churn
+29,1,No,Low Income,Yes,No,Customer Doesnt Churn
+28,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+31,1,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Churns
+30,2,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+36,3,No Record,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+29,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+29,1,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+36,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+29,1,No,Low Income,Yes,No,Customer Doesnt Churn
+37,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+31,2,Yes,Low Income,Yes,No,Customer Doesnt Churn
+35,1,No,Low Income,No,No,Customer Doesnt Churn
+30,2,No,Low Income,Yes,No,Customer Churns
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+30,3,No Record,Low Income,Yes,Yes,Customer Churns
+30,1,No,High Income,No,No,Customer Doesnt Churn
+29,1,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+29,2,Yes,Low Income,No,No,Customer Doesnt Churn
+28,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,Yes,Customer Churns
+36,1,No,Low Income,No,No,Customer Doesnt Churn
+30,3,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+31,2,No,High Income,No,Yes,Customer Doesnt Churn
+36,1,Yes,Low Income,No,No,Customer Doesnt Churn
+29,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+28,6,No,High Income,No,Yes,Customer Churns
+27,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+27,2,No Record,Middle Income,Yes,No,Customer Churns
+27,2,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+28,1,No,Low Income,No,Yes,Customer Churns
+37,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,Yes,Customer Churns
+31,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+36,1,No Record,Low Income,No,No,Customer Churns
+29,6,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Churns
+29,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No,Low Income,No,No,Customer Churns
+38,6,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+31,3,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,2,No,Low Income,No,No,Customer Doesnt Churn
+31,2,No,Low Income,No,No,Customer Doesnt Churn
+36,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Churns
+31,1,No,High Income,No,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,No,Customer Churns
+31,1,No,High Income,No,No,Customer Doesnt Churn
+37,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+30,2,No Record,Low Income,No,No,Customer Doesnt Churn
+31,2,No Record,Middle Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,No,Yes,Customer Churns
+30,3,No,Low Income,No,Yes,Customer Churns
+30,1,No,High Income,Yes,No,Customer Churns
+31,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Churns
+29,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+27,5,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+29,2,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+28,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,3,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Churns
+28,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Churns
+28,6,Yes,Low Income,No,No,Customer Doesnt Churn
+28,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+27,1,Yes,High Income,Yes,No,Customer Churns
+36,1,No,Middle Income,No,No,Customer Doesnt Churn
+31,3,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,No,Middle Income,No,No,Customer Doesnt Churn
+28,2,Yes,High Income,Yes,No,Customer Doesnt Churn
+31,1,No,Low Income,No,No,Customer Churns
+27,6,Yes,Middle Income,Yes,No,Customer Churns
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,Low Income,No,Yes,Customer Doesnt Churn
+37,2,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Churns
+31,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,Low Income,No,Yes,Customer Churns
+31,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Churns
+36,3,No,Middle Income,No,No,Customer Churns
+31,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,3,No,Middle Income,No,Yes,Customer Doesnt Churn
+29,2,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+35,3,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+29,5,No Record,Middle Income,Yes,No,Customer Churns
+36,1,Yes,High Income,Yes,No,Customer Churns
+30,1,No,High Income,No,Yes,Customer Churns
+30,1,Yes,Low Income,No,Yes,Customer Churns
+28,2,No Record,Low Income,Yes,No,Customer Churns
+31,2,No,Middle Income,No,No,Customer Churns
+27,2,No,Low Income,Yes,No,Customer Churns
+29,1,Yes,Low Income,No,Yes,Customer Doesnt Churn
+29,6,No,Middle Income,No,No,Customer Doesnt Churn
+37,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+28,1,Yes,Low Income,No,No,Customer Churns
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,No Record,Middle Income,No,No,Customer Doesnt Churn
+36,1,Yes,High Income,Yes,Yes,Customer Churns
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+30,2,No,High Income,No,Yes,Customer Churns
+28,2,Yes,High Income,No,No,Customer Doesnt Churn
+28,1,No Record,High Income,No,No,Customer Churns
+31,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+36,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,High Income,No,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,Low Income,No,No,Customer Doesnt Churn
+36,3,No,Middle Income,No,Yes,Customer Churns
+27,5,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+31,2,Yes,Low Income,Yes,No,Customer Churns
+37,1,No,High Income,No,No,Customer Churns
+30,1,No Record,High Income,No,No,Customer Churns
+31,1,Yes,Middle Income,Yes,No,Customer Churns
+31,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Churns
+31,2,Yes,Middle Income,No,No,Customer Churns
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Churns
+30,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+28,2,Yes,High Income,No,Yes,Customer Churns
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+36,1,Yes,High Income,No,No,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Middle Income,No,Yes,Customer Churns
+30,2,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+27,2,No,Middle Income,No,Yes,Customer Churns
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+37,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,3,No,High Income,No,Yes,Customer Doesnt Churn
+31,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,4,No,Middle Income,No,Yes,Customer Churns
+29,6,No,Middle Income,Yes,Yes,Customer Churns
+28,2,No,Middle Income,No,Yes,Customer Churns
+29,1,Yes,Low Income,Yes,No,Customer Churns
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+36,3,No,Low Income,No,No,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+28,2,No,Middle Income,Yes,Yes,Customer Churns
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,3,No Record,Middle Income,No,Yes,Customer Churns
+31,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,Middle Income,No,No,Customer Doesnt Churn
+29,1,Yes,High Income,No,No,Customer Churns
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+27,2,No,Middle Income,Yes,No,Customer Churns
+31,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+38,2,No,Middle Income,No,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,Yes,Customer Churns
+27,2,No,Middle Income,No,No,Customer Churns
+30,1,No,Middle Income,No,No,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+31,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No Record,Low Income,No,No,Customer Doesnt Churn
+31,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+31,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Churns
+37,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,Middle Income,No,No,Customer Churns
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,Middle Income,No,Yes,Customer Churns
+30,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Churns
+30,6,No,Middle Income,No,No,Customer Doesnt Churn
+36,6,No Record,Middle Income,Yes,Yes,Customer Churns
+37,2,No,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,3,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+27,1,No Record,Low Income,No,No,Customer Churns
+31,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,No,No,Customer Doesnt Churn
+35,1,No,High Income,Yes,No,Customer Doesnt Churn
+28,2,No,Middle Income,No,No,Customer Churns
+31,2,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+36,2,No,Middle Income,No,No,Customer Doesnt Churn
+37,2,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Middle Income,No,No,Customer Churns
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+29,2,No,Middle Income,No,No,Customer Doesnt Churn
+28,2,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,3,No,Middle Income,Yes,No,Customer Churns
+30,2,No,Middle Income,No,No,Customer Churns
+30,1,No,Low Income,Yes,No,Customer Churns
+36,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,High Income,No,Yes,Customer Churns
+28,2,No,Low Income,Yes,No,Customer Churns
+27,2,No Record,Middle Income,Yes,Yes,Customer Churns
+30,1,No Record,Low Income,Yes,Yes,Customer Churns
+30,2,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+29,6,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+32,3,No Record,Middle Income,Yes,Yes,Customer Churns
+37,1,Yes,Low Income,No,No,Customer Doesnt Churn
+37,1,No,Low Income,No,No,Customer Churns
+28,6,No,Middle Income,No,No,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+31,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,3,No Record,Middle Income,No,No,Customer Churns
+27,5,No,Low Income,No,Yes,Customer Churns
+37,5,No,Low Income,Yes,Yes,Customer Doesnt Churn
+28,2,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,Low Income,No,No,Customer Doesnt Churn
+30,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+37,2,Yes,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,No,Customer Churns
+27,6,No,Middle Income,No,No,Customer Doesnt Churn
+31,2,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+27,6,No,High Income,Yes,Yes,Customer Doesnt Churn
+29,2,No Record,Middle Income,Yes,No,Customer Churns
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+27,1,No Record,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Middle Income,No,Yes,Customer Doesnt Churn
+29,1,No Record,High Income,No,No,Customer Doesnt Churn
+37,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+32,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,Low Income,No,No,Customer Churns
+28,1,No Record,High Income,No,No,Customer Churns
+27,1,No,Low Income,Yes,No,Customer Churns
+30,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+35,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+28,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,2,No,Low Income,Yes,No,Customer Churns
+31,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Churns
+30,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+37,1,No,High Income,No,Yes,Customer Churns
+31,2,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+30,2,No,Middle Income,No,No,Customer Churns
+31,2,No Record,High Income,Yes,No,Customer Doesnt Churn
+36,1,No,Low Income,Yes,No,Customer Doesnt Churn
+36,6,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+28,1,No Record,High Income,No,No,Customer Doesnt Churn
+29,2,No Record,High Income,Yes,No,Customer Churns
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+27,2,No,Middle Income,No,No,Customer Churns
+30,1,No,High Income,No,No,Customer Doesnt Churn
+29,1,Yes,Middle Income,Yes,No,Customer Churns
+29,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+36,2,No,High Income,Yes,No,Customer Doesnt Churn
+30,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,Yes,Customer Churns
+30,1,No,Middle Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Doesnt Churn
+29,2,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+29,1,No,High Income,No,Yes,Customer Doesnt Churn
+27,2,Yes,Low Income,Yes,No,Customer Churns
+28,2,No,Middle Income,No,No,Customer Churns
+30,3,No Record,Middle Income,Yes,No,Customer Churns
+29,1,No Record,High Income,No,No,Customer Churns
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+31,3,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+31,1,Yes,Low Income,No,No,Customer Doesnt Churn
+36,3,No Record,Middle Income,No,No,Customer Doesnt Churn
+31,3,No Record,High Income,Yes,No,Customer Doesnt Churn
+28,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,3,No Record,Middle Income,Yes,No,Customer Churns
+28,2,No Record,Middle Income,No,No,Customer Doesnt Churn
+30,3,Yes,Low Income,No,No,Customer Churns
+27,2,No,Middle Income,Yes,Yes,Customer Churns
+29,4,No,Middle Income,Yes,No,Customer Churns
+37,1,No,Low Income,No,No,Customer Doesnt Churn
+28,2,Yes,Middle Income,No,No,Customer Doesnt Churn
+31,3,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,3,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,No,Yes,Customer Doesnt Churn
+30,3,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+31,6,No,Low Income,No,No,Customer Churns
+30,1,No,Middle Income,No,No,Customer Churns
+27,1,No,High Income,No,No,Customer Churns
+28,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+31,2,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+30,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+27,2,Yes,High Income,No,No,Customer Doesnt Churn
+28,2,No,Low Income,No,No,Customer Churns
+30,1,No,High Income,No,No,Customer Doesnt Churn
+30,3,No Record,Middle Income,Yes,No,Customer Churns
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+30,3,No,Middle Income,Yes,No,Customer Doesnt Churn
+28,1,No,High Income,No,Yes,Customer Churns
+31,6,Yes,Low Income,No,No,Customer Doesnt Churn
+31,2,Yes,High Income,No,Yes,Customer Churns
+31,2,Yes,Middle Income,Yes,Yes,Customer Churns
+36,3,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Churns
+31,2,No,Middle Income,No,No,Customer Doesnt Churn
+36,6,No,Low Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,No,No,Customer Doesnt Churn
+29,2,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+31,2,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+31,1,No,Low Income,No,No,Customer Doesnt Churn
+27,2,No Record,Low Income,Yes,No,Customer Churns
+30,3,No,Low Income,No,No,Customer Doesnt Churn
+38,6,No Record,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Churns
+31,3,No,Middle Income,No,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,No,Customer Churns
+29,2,No,Middle Income,Yes,No,Customer Churns
+27,2,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,2,No Record,High Income,No,No,Customer Churns
+31,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+27,1,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+28,1,No,High Income,No,No,Customer Churns
+30,1,Yes,High Income,No,No,Customer Churns
+29,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+36,3,No Record,Low Income,Yes,No,Customer Churns
+30,3,Yes,High Income,Yes,No,Customer Doesnt Churn
+27,6,Yes,Middle Income,No,Yes,Customer Churns
+36,1,No,Low Income,Yes,No,Customer Churns
+30,2,No Record,Low Income,No,Yes,Customer Churns
+37,1,No,Middle Income,No,Yes,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+27,2,No,Middle Income,Yes,No,Customer Churns
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+36,2,Yes,High Income,No,No,Customer Doesnt Churn
+27,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,No,Customer Churns
+30,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+37,3,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+27,2,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+37,1,No,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Churns
+29,6,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+28,2,Yes,Middle Income,No,Yes,Customer Churns
+30,3,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+37,1,Yes,High Income,No,No,Customer Doesnt Churn
+36,1,No,High Income,Yes,Yes,Customer Churns
+31,1,No,Low Income,No,No,Customer Churns
+30,3,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+27,6,No,Low Income,No,Yes,Customer Doesnt Churn
+29,2,No Record,Low Income,No,No,Customer Doesnt Churn
+30,6,No Record,High Income,No,No,Customer Doesnt Churn
+37,2,No,Middle Income,No,Yes,Customer Churns
+30,3,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,Yes,Customer Churns
+30,1,No,Low Income,Yes,No,Customer Doesnt Churn
+28,2,No,High Income,Yes,Yes,Customer Churns
+28,2,No,Middle Income,Yes,No,Customer Churns
+30,2,Yes,Low Income,No,No,Customer Doesnt Churn
+30,1,Yes,Low Income,Yes,Yes,Customer Doesnt Churn
+29,1,No,High Income,Yes,No,Customer Churns
+29,2,No,Middle Income,No,Yes,Customer Churns
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+29,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+31,2,No,High Income,No,Yes,Customer Doesnt Churn
+31,3,No,Middle Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,Yes,No,Customer Churns
+31,6,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Churns
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+29,1,No,Low Income,No,Yes,Customer Churns
+31,1,No,High Income,No,No,Customer Doesnt Churn
+37,2,No,Middle Income,No,No,Customer Churns
+30,3,No,Middle Income,Yes,No,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+29,2,No,Low Income,Yes,Yes,Customer Churns
+28,2,No,Middle Income,Yes,Yes,Customer Churns
+30,1,No,Middle Income,No,Yes,Customer Doesnt Churn
+37,4,Yes,Low Income,Yes,No,Customer Doesnt Churn
+27,2,No,Middle Income,Yes,No,Customer Churns
+30,3,No Record,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,High Income,Yes,No,Customer Churns
+36,2,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+38,3,Yes,Middle Income,Yes,No,Customer Churns
+29,6,No Record,Middle Income,Yes,No,Customer Churns
+28,2,No Record,Middle Income,Yes,Yes,Customer Churns
+30,1,No Record,High Income,Yes,Yes,Customer Churns
+30,3,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Churns
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+28,1,No Record,Low Income,No,Yes,Customer Churns
+30,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+28,1,No Record,High Income,No,Yes,Customer Churns
+31,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,Yes,Customer Churns
+31,1,No Record,Middle Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+29,3,No,Low Income,Yes,Yes,Customer Doesnt Churn
+30,3,No Record,High Income,No,No,Customer Churns
+30,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+36,6,No,Middle Income,No,Yes,Customer Churns
+31,3,No,Middle Income,Yes,Yes,Customer Churns
+31,1,Yes,Low Income,No,No,Customer Doesnt Churn
+29,2,No Record,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No Record,Low Income,No,No,Customer Doesnt Churn
+35,1,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+29,3,No,Low Income,Yes,Yes,Customer Churns
+31,1,No,High Income,No,Yes,Customer Churns
+31,1,No,Low Income,No,No,Customer Doesnt Churn
+27,1,No,High Income,Yes,No,Customer Churns
+30,1,No Record,Low Income,No,No,Customer Doesnt Churn
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+29,1,No,High Income,Yes,No,Customer Doesnt Churn
+29,1,No Record,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,Low Income,No,Yes,Customer Doesnt Churn
+28,1,Yes,High Income,Yes,Yes,Customer Churns
+28,2,No,Low Income,Yes,Yes,Customer Churns
+31,2,No Record,Middle Income,No,Yes,Customer Doesnt Churn
+30,2,No,Low Income,No,Yes,Customer Doesnt Churn
+31,2,No,Middle Income,Yes,No,Customer Churns
+30,1,Yes,Low Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+38,2,Yes,Low Income,No,No,Customer Doesnt Churn
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,Middle Income,No,Yes,Customer Churns
+30,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+37,3,No Record,Middle Income,Yes,Yes,Customer Churns
+28,6,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,2,No,Middle Income,No,No,Customer Churns
+30,3,No,Middle Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+29,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+30,2,Yes,Middle Income,No,No,Customer Churns
+31,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,No,Low Income,No,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,High Income,No,No,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,Yes,Customer Churns
+31,1,No,High Income,No,Yes,Customer Churns
+30,6,No,Middle Income,Yes,Yes,Customer Churns
+37,2,No,Low Income,Yes,No,Customer Doesnt Churn
+30,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+36,1,No Record,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+36,2,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+29,1,No Record,Middle Income,No,Yes,Customer Churns
+37,1,No,High Income,Yes,No,Customer Doesnt Churn
+27,2,No,Low Income,Yes,Yes,Customer Churns
+28,2,No,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,High Income,Yes,No,Customer Churns
+30,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+37,1,No,High Income,No,Yes,Customer Doesnt Churn
+29,2,No,Low Income,No,Yes,Customer Doesnt Churn
+30,3,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,Low Income,Yes,No,Customer Churns
+30,3,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+28,2,No,Middle Income,No,No,Customer Churns
+36,6,Yes,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+36,1,Yes,Low Income,No,No,Customer Doesnt Churn
+28,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+28,2,No Record,Middle Income,Yes,No,Customer Churns
+30,1,No Record,Low Income,Yes,Yes,Customer Doesnt Churn
+28,2,No,Middle Income,Yes,No,Customer Churns
+30,1,No,Low Income,No,No,Customer Doesnt Churn
+31,3,No Record,Low Income,No,Yes,Customer Doesnt Churn
+29,2,Yes,Middle Income,No,Yes,Customer Churns
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+31,1,No Record,Low Income,Yes,No,Customer Doesnt Churn
+29,6,No,High Income,No,Yes,Customer Doesnt Churn
+38,2,No,Middle Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,Yes,Customer Churns
+28,1,No,High Income,Yes,No,Customer Doesnt Churn
+38,2,No,Middle Income,No,No,Customer Doesnt Churn
+37,2,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+36,3,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+28,1,No,Middle Income,Yes,No,Customer Doesnt Churn
+37,1,Yes,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Churns
+30,1,No,Low Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+31,2,No,Middle Income,No,No,Customer Doesnt Churn
+30,1,Yes,Low Income,No,Yes,Customer Doesnt Churn
+37,6,Yes,High Income,No,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,2,No Record,Middle Income,No,No,Customer Doesnt Churn
+27,2,No,High Income,No,No,Customer Churns
+31,1,No,Low Income,No,No,Customer Doesnt Churn
+30,2,No,High Income,Yes,No,Customer Doesnt Churn
+30,3,No,Middle Income,No,Yes,Customer Churns
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Churns
+29,1,Yes,High Income,No,No,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Churns
+30,2,No,Middle Income,No,No,Customer Doesnt Churn
+31,1,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,No,High Income,Yes,No,Customer Doesnt Churn
+31,2,Yes,Low Income,No,Yes,Customer Churns
+29,2,No,Middle Income,Yes,No,Customer Doesnt Churn
+30,1,No,Middle Income,Yes,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+29,3,No Record,High Income,Yes,Yes,Customer Doesnt Churn
+27,1,No,High Income,No,No,Customer Churns
+29,2,No,Middle Income,No,No,Customer Doesnt Churn
+28,1,No,Low Income,No,Yes,Customer Doesnt Churn
+31,1,No,High Income,No,No,Customer Churns
+27,2,Yes,Middle Income,Yes,No,Customer Doesnt Churn
+37,6,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+31,1,Yes,High Income,No,No,Customer Doesnt Churn
+38,4,No,Low Income,No,Yes,Customer Churns
+31,1,No Record,Low Income,No,Yes,Customer Churns
+30,3,No Record,Middle Income,No,Yes,Customer Churns
+30,1,Yes,Low Income,No,Yes,Customer Churns
+31,1,Yes,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,Yes,No,Customer Doesnt Churn
+30,2,No,Middle Income,Yes,Yes,Customer Churns
+31,2,No,Low Income,Yes,No,Customer Doesnt Churn
+36,4,No,High Income,Yes,No,Customer Churns
+30,3,Yes,Middle Income,No,Yes,Customer Doesnt Churn
+37,3,Yes,High Income,No,No,Customer Churns
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+36,3,No Record,Low Income,Yes,No,Customer Doesnt Churn
+31,1,No,Low Income,No,Yes,Customer Doesnt Churn
+28,1,No,Low Income,No,No,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+27,1,No,High Income,No,No,Customer Doesnt Churn
+30,1,No,High Income,Yes,Yes,Customer Doesnt Churn
+30,1,No,High Income,Yes,No,Customer Doesnt Churn
+30,1,No Record,High Income,Yes,No,Customer Doesnt Churn
+29,1,No,High Income,No,Yes,Customer Doesnt Churn
+30,1,Yes,High Income,No,No,Customer Doesnt Churn
+31,3,Yes,Middle Income,No,No,Customer Doesnt Churn
